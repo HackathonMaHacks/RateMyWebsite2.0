@@ -1,1 +1,35 @@
-
+import java.util.ArrayLists;
+public class Website{
+  int reli;
+  int size;
+  int dens;
+  int revs;
+  public Website(int uReli, int uSize, int uDens){
+    reli = uReli;
+    size = uSize;
+    dens = uDens;
+    revs = 1;
+  }
+  public int getReli(){
+    return reli;
+  }
+  public void setReli(int i){
+    reli = i;
+  }
+  public int getSize(){
+    return size;
+  }
+  public void setSize(int i){
+    size = i;
+  }
+  public int getDens(){
+    return dens;
+  }
+  public void setDens(int i){
+    dens = i;
+  }
+  public int getRevs(){
+  return revs;
+  }
+  
+ }
